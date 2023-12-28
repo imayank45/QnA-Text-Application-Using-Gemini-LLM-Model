@@ -32,7 +32,7 @@ st.set_page_config('Q N A')
 st.header('QnA Text ChatBot Using Gemini LLM Model')
 
 # Creating a text input field on the Streamlit page for user input
-input = st.text_input('Ask your question below: ', key='input')
+input = st.text_input('Ask your question below: ', key='input', help="Please click again on 'Ask the question button' if error encountered")
 # Creating a button on the Streamlit page
 submit = st.button('Ask the question')
 
