@@ -29,7 +29,7 @@ def get_gemini_response(question):
 # Setting the configuration of the Streamlit page
 st.set_page_config('Q N A')
 # Adding a header to the Streamlit page
-st.header('QnA Text Application Using Gemini LLM Model')
+st.header('QnA Text ChatBot Using Gemini LLM Model')
 
 # Creating a text input field on the Streamlit page for user input
 input = st.text_input('Ask your question below: ', key='input')
